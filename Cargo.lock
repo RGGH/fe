@@ -470,6 +470,7 @@ name = "fe"
 version = "0.1.0"
 dependencies = [
  "fastembed",
+ "rayon",
 ]
 
 [[package]]
