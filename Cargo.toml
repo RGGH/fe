@@ -5,3 +5,8 @@ edition = "2021"
 
 [dependencies]
 fastembed = "4.1.0"
+
+[profile.release]
+opt-level = "z"          # Optimize for binary size (or use "3" for speed)
+codegen-units = 1        # Fewer codegen units reduce parallelism but improve optimization
+lto = true               # Link-time optimization
