@@ -17,8 +17,7 @@ fn main() -> Result<(), Box<dyn std::error::Error>> {
         "passage: Hello, World!",
         "query: Hello, World!",
         "passage: This is an example passage.",
-        // You can leave out the prefix but it's recommended
-        "fastembed-rs is licensed under Apache  2.0",
+        "passage: This is also an example passage.",
     ];
 
     // Generate embeddings with the default batch size, 256
