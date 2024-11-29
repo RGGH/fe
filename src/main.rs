@@ -1,9 +1,11 @@
+use anyhow::{Context, Result};
 use fastembed::{EmbeddingModel, InitOptions, TextEmbedding};
 use qdrant_client::qdrant::{
-    CreateCollectionBuilder, Distance, PointStruct, UpsertPointsBuilder, VectorParamsBuilder,
+    CreateCollectionBuilder, Distance, PointStruct, SearchParamsBuilder, SearchPointsBuilder,
+    UpsertPointsBuilder, VectorParamsBuilder,
 };
-use qdrant_client::{Payload, Qdrant};
-use anyhow::{Result, Context};
+use qdrant_client::Payload;
+use qdrant_client::Qdrant;
 use std::fs::File;
 use std::io::{self, BufRead};
 use std::path::Path;
@@ -12,7 +14,7 @@ use std::path::Path;
 async fn main() -> Result<()> {
     let start_time = std::time::Instant::now();
     // Read the documents from a file
-    let file_path = "documents.txt";  // Specify the file path here
+    let file_path = "documents.txt"; // Specify the file path here
     let documents = read_documents_from_file(file_path)?;
 
     // Initialize the embedding model with custom options
@@ -26,14 +28,15 @@ async fn main() -> Result<()> {
     // Connect to the Qdrant client
     let client = Qdrant::from_url("http://localhost:6334").build()?;
 
-    let collection_name = "test";
+    let collection_name = "test"; // Consistent collection name
 
     // Check if the collection exists, create it if it doesn't
     if !client.collection_exists(collection_name).await? {
+        let vector_size = embeddings[0].len() as u64; // Get the embedding vector size
         client
             .create_collection(
                 CreateCollectionBuilder::new(collection_name)
-                    .vectors_config(VectorParamsBuilder::new(embeddings[0].len() as u64, Distance::Cosine)),
+                    .vectors_config(VectorParamsBuilder::new(vector_size, Distance::Cosine)),
             )
             .await?;
     } else {
@@ -44,6 +47,7 @@ async fn main() -> Result<()> {
     let points: Vec<PointStruct> = embeddings
         .into_iter()
         .enumerate()
+        .filter(|(id, _)| !documents[*id].is_empty())
         .map(|(id, vector)| {
             let payload: Payload = serde_json::json!({ "document": documents[id] })
                 .try_into()
@@ -59,8 +63,27 @@ async fn main() -> Result<()> {
 
     let time_elapsed = std::time::Instant::now() - start_time;
     println!("{:?}", time_elapsed);
-
     println!("done!");
+
+    // The phrase or word you want to search for
+    let text = "doggy"; // Replace with dynamic input if needed
+
+    // Generate embeddings using FastEmbed
+    let embeddings = model.embed(vec![text.to_string()], None)?;
+    let vector = embeddings[0].clone(); // Get the first vector from the embeddings
+
+    // Perform the search with the generated embedding
+    let search_result = client
+        .search_points(
+            SearchPointsBuilder::new(collection_name, vector, 3) // Use the correct collection name
+                //.filter(Filter::all([Condition::matches("document", "fox".to_string())])) // Optional filter
+                .with_payload(true) // Include payload in the results
+                .params(SearchParamsBuilder::default().exact(true)), // Optional search params
+        )
+        .await?;
+
+    // Print the search result for debugging
+    println!("{:#?}", search_result);
 
     Ok(())
 }
@@ -78,4 +101,3 @@ where
         .context("Failed to read lines from file")?;
     Ok(documents)
 }
-
