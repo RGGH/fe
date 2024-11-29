@@ -1,4 +1,6 @@
 # Qdrant & Rust - embeddings
+![Uploading image.png…]()
+
 ### https://redandgreen.co.uk/qdrant-rust/ai-ml/
 
   ```docker pull qdrant/qdrant```
