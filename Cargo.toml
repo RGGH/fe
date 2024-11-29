@@ -4,9 +4,15 @@ version = "0.1.0"
 edition = "2021"
 
 [dependencies]
+qdrant-client = "1.12.1"
+serde_json = "1.0.133"
+tokio = { version = "1.41.1", features = ["full"] }
 fastembed = "4.1.0"
+anyhow = "1.0.93"
+thiserror = "2.0.3"
 
 [profile.release]
-opt-level = "z"          # Optimize for binary size (or use "3" for speed)
-codegen-units = 1        # Fewer codegen units reduce parallelism but improve optimization
-lto = true               # Link-time optimization
+opt-level = 3        # Maximum optimization
+lto = true           # Link Time Optimization (LTO)
+panic = 'abort'      # Reduces binary size and eliminates runtime overhead from panic handling
+debug = false        # Disable debug symbols in release
