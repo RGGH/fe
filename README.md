@@ -1,4 +1,5 @@
 # Qdrant & Rust - embeddings
+### https://redandgreen.co.uk/qdrant-rust/ai-ml/
 
   ```docker pull qdrant/qdrant
 
@@ -6,4 +7,4 @@
     -v $(pwd)/qdrant_storage:/qdrant/storage:z \
     qdrant/qdrant```
     
-### https://redandgreen.co.uk/qdrant-rust/ai-ml/
+
