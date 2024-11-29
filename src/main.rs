@@ -1,8 +1,7 @@
 use anyhow::{Context, Result};
 use fastembed::{EmbeddingModel, InitOptions, TextEmbedding};
 use qdrant_client::qdrant::{
-    CreateCollectionBuilder, Distance, PointStruct, SearchParamsBuilder, SearchPointsBuilder,
-    UpsertPointsBuilder, VectorParamsBuilder,
+    CreateCollectionBuilder, Distance, PointStruct, SearchParamsBuilder, SearchPointsBuilder, SearchResponse, UpsertPointsBuilder, VectorParamsBuilder
 };
 use qdrant_client::Payload;
 use qdrant_client::Qdrant;
@@ -63,29 +62,24 @@ async fn main() -> Result<()> {
 
     let time_elapsed = std::time::Instant::now() - start_time;
     println!("{:?}", time_elapsed);
-    println!("done!");
 
-    // The phrase or word you want to search for
-    let text = "doggy"; // Replace with dynamic input if needed
-
-    // Generate embeddings using FastEmbed
-    let embeddings = model.embed(vec![text.to_string()], None)?;
-    let vector = embeddings[0].clone(); // Get the first vector from the embeddings
-
-    // Perform the search with the generated embedding
-    let search_result = client
-        .search_points(
-            SearchPointsBuilder::new(collection_name, vector, 3) // Use the correct collection name
-                //.filter(Filter::all([Condition::matches("document", "fox".to_string())])) // Optional filter
-                .with_payload(true) // Include payload in the results
-                .params(SearchParamsBuilder::default().exact(true)), // Optional search params
-        )
-        .await?;
-
+    let search_result = search_qdrant("grass", model, client, collection_name);
     // Print the search result for debugging
-    println!("{:#?}", search_result);
+    println!("{:#?}", search_result.await);
 
     Ok(())
+}
+
+async fn search_qdrant(input: &str, model:TextEmbedding,client:Qdrant,collection_name:&str)->SearchResponse{
+    let embeddings = model.embed(vec![input.to_string()], None).unwrap();
+    let vector = embeddings[0].clone(); // Get the first vector from the embeddings
+    let search_result = client
+        .search_points(
+            SearchPointsBuilder::new(collection_name, vector, 3)
+                .with_payload(true) // Include payload in the results
+                .params(SearchParamsBuilder::default().exact(true)), // Optional search params
+            ).await.unwrap();
+    search_result
 }
 
 // Function to read documents from a file
