@@ -1,5 +1,6 @@
 # Qdrant & Rust - embeddings
-![Uploading image.png…]()
+![image](https://github.com/user-attachments/assets/50462702-8b15-43fb-829b-e06d68b326ff)
+
 
 ### https://redandgreen.co.uk/qdrant-rust/ai-ml/
 
