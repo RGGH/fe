@@ -1,37 +1,81 @@
 use fastembed::{EmbeddingModel, InitOptions, TextEmbedding};
-use std::time::Instant;
+use qdrant_client::qdrant::{
+    CreateCollectionBuilder, Distance, PointStruct, UpsertPointsBuilder, VectorParamsBuilder,
+};
+use qdrant_client::{Payload, Qdrant};
+use anyhow::{Result, Context};
+use std::fs::File;
+use std::io::{self, BufRead};
+use std::path::Path;
 
-fn main() -> Result<(), Box<dyn std::error::Error>> {
-    // Start timing
-    let start = Instant::now();
+#[tokio::main]
+async fn main() -> Result<()> {
+    let start_time = std::time::Instant::now();
+    // Read the documents from a file
+    let file_path = "documents.txt";  // Specify the file path here
+    let documents = read_documents_from_file(file_path)?;
 
-    // With default InitOptions
-    let _model = TextEmbedding::try_new(Default::default())?;
-
-    // With custom InitOptions
+    // Initialize the embedding model with custom options
     let model = TextEmbedding::try_new(
         InitOptions::new(EmbeddingModel::AllMiniLML6V2).with_show_download_progress(true),
     )?;
 
-    let documents = vec![
-        "passage: Hello, World!",
-        "query: Hello, World!",
-        "passage: This is an example passage.",
-        "passage: This is also an example passage.",
-    ];
+    // Generate embeddings
+    let embeddings = model.embed(documents.clone(), None)?;
 
-    // Generate embeddings with the default batch size, 256
-    let embeddings = model.embed(documents, None)?;
+    // Connect to the Qdrant client
+    let client = Qdrant::from_url("http://localhost:6334").build()?;
 
-    println!("Embeddings length: {}", embeddings.len()); // -> Embeddings length: 4
-    println!("Embedding dimension: {}", embeddings[0].len()); // -> Embedding dimension: 384
-    println!("{:?}", embeddings);
+    let collection_name = "test";
 
-    // Stop timing and calculate the duration
-    let duration = start.elapsed();
+    // Check if the collection exists, create it if it doesn't
+    if !client.collection_exists(collection_name).await? {
+        client
+            .create_collection(
+                CreateCollectionBuilder::new(collection_name)
+                    .vectors_config(VectorParamsBuilder::new(embeddings[0].len() as u64, Distance::Cosine)),
+            )
+            .await?;
+    } else {
+        println!("Collection `{}` already exists!", collection_name);
+    }
 
-    // Log the time taken
-    println!("Time taken: {:?}", duration); // approx 500ms
+    // Prepare points with embeddings and corresponding documents as payload
+    let points: Vec<PointStruct> = embeddings
+        .into_iter()
+        .enumerate()
+        .map(|(id, vector)| {
+            let payload: Payload = serde_json::json!({ "document": documents[id] })
+                .try_into()
+                .unwrap();
+            PointStruct::new(id as u64, vector, payload)
+        })
+        .collect();
+
+    // Upsert the points into the collection
+    client
+        .upsert_points(UpsertPointsBuilder::new(collection_name, points))
+        .await?;
+
+    let time_elapsed = std::time::Instant::now() - start_time;
+    println!("{:?}", time_elapsed);
+
+    println!("done!");
 
     Ok(())
 }
+
+// Function to read documents from a file
+fn read_documents_from_file<P>(path: P) -> Result<Vec<String>>
+where
+    P: AsRef<Path>,
+{
+    let file = File::open(path).context("Failed to open file")?;
+    let reader = io::BufReader::new(file);
+    let documents: Vec<String> = reader
+        .lines()
+        .collect::<Result<_, _>>()
+        .context("Failed to read lines from file")?;
+    Ok(documents)
+}
+

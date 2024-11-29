@@ -1,0 +1,426 @@
+passage: The quick brown fox jumps over the lazy dog.
+passage: In the midst of chaos, there is also opportunity.
+passage: A journey of a thousand miles begins with a single step.
+passage: The only limit to our realization of tomorrow is our doubts of today.
+passage: Life is what happens when you're busy making other plans.
+passage: To be yourself in a world that is constantly trying to make you something else is the greatest accomplishment.
+passage: It does not matter how slowly you go as long as you do not stop.
+passage: Success is not final, failure is not fatal: It is the courage to continue that counts.
+passage: Believe you can and you're halfway there.
+passage: The purpose of life is not to be happy. It is to be useful, to be honorable, to be compassionate, to have it make some difference that you have lived and lived well.
+passage: In the end, we will remember not the words of our enemies, but the silence of our friends.
+passage: Happiness is not something ready-made. It comes from your own actions.
+passage: You must be the change you wish to see in the world.
+passage: The best way to predict the future is to create it.
+passage: When one door of happiness closes, another opens.
+passage: Life isn't about finding yourself. It's about creating yourself.
+passage: Do not go where the path may lead, go instead where there is no path and leave a trail.
+passage: It always seems impossible until it’s done.
+passage: Success is not how high you have climbed, but how you make a positive difference to the world.
+passage: It is never too late to be what you might have been.
+passage: To live is the rarest thing in the world. Most people exist, that is all.
+passage: The only way to do great work is to love what you do.
+passage: Don't watch the clock; do what it does. Keep going.
+passage: Keep your face always toward the sunshine—and shadows will fall behind you.
+passage: A person who never made a mistake never tried anything new.
+passage: Do not dwell in the past, do not dream of the future, concentrate the mind on the present moment.
+passage: Life is really simple, but we insist on making it complicated.
+passage: Time is what we want most, but what we use worst.
+passage: You only live once, but if you do it right, once is enough.
+passage: The future belongs to those who believe in the beauty of their dreams.
+passage: The best time to plant a tree was 20 years ago. The second best time is now.
+passage: Life isn't about waiting for the storm to pass, it's about learning how to dance in the rain.
+passage: Success usually comes to those who are too busy to be looking for it.
+passage: What lies behind us and what lies before us are tiny matters compared to what lies within us.
+passage: You miss 100% of the shots you don't take.
+passage: It does not matter how slowly you go as long as you do not stop.
+passage: Happiness depends upon ourselves.
+passage: A day without laughter is a day wasted.
+passage: If you don't ask, the answer is always no.
+passage: It’s not whether you get knocked down, it’s whether you get up.
+passage: Life is short, and it is up to you to make it sweet.
+passage: You have to be odd to be number one.
+passage: Every day may not be good, but there is something good in every day.
+passage: The best revenge is massive success.
+passage: Don’t count the days, make the days count.
+passage: Life is 10% what happens to us and 90% how we react to it.
+passage: Success is walking from failure to failure with no loss of enthusiasm.
+passage: Failure will never overtake me if my determination to succeed is strong enough.
+passage: There are no shortcuts to any place worth going.
+passage: What you get by achieving your goals is not as important as what you become by achieving your goals.
+passage: Nothing in the world can take the place of Persistence.
+passage: The harder you work for something, the greater you'll feel when you achieve it.
+passage: Don't stop when you're tired. Stop when you're done.
+passage: The future belongs to those who prepare for it today.
+passage: It’s not about how bad you want it. It’s about how hard you’re willing to work for it.
+passage: The road to success and the road to failure are almost exactly the same.
+passage: You can't go back and change the beginning, but you can start where you are and change the ending.
+passage: The only way to achieve the impossible is to believe it is possible.
+passage: Don't wait. The time will never be just right.
+passage: The secret of getting ahead is getting started.
+passage: Don’t limit your challenges. Challenge your limits.
+passage: The best way to find yourself is to lose yourself in the service of others.
+passage: If you're going through hell, keep going.
+passage: A winner is a dreamer who never gives up.
+passage: The only limit to our realization of tomorrow is our doubts of today.
+passage: If you want to live a happy life, tie it to a goal, not to people or things.
+passage: It is not length of life, but depth of life.
+passage: Our lives begin to end the day we become silent about things that matter.
+passage: Be not afraid of life. Believe that life is worth living, and your belief will help create the fact.
+passage: You will face many defeats in life, but never let yourself be defeated.
+passage: The only way to do great work is to love what you do.
+passage: Don’t wait for the perfect moment. Take the moment and make it perfect.
+passage: Success is not the key to happiness. Happiness is the key to success.
+passage: It’s not the years in your life that count, it’s the life in your years.
+passage: You become what you believe.
+passage: I find that the harder I work, the more luck I seem to have.
+passage: Your time is limited, so don’t waste it living someone else’s life.
+passage: Life is not about waiting for the storm to pass but learning how to dance in the rain.
+passage: Only I can change my life. No one can do it for me.
+passage: It's not about how bad you want it. It's about how hard you're willing to work for it.
+passage: Life is really simple, but we insist on making it complicated.
+passage: Your limitation—it's only your imagination.
+passage: Push yourself, because no one else is going to do it for you.
+passage: Great things never come from comfort zones.
+passage: Dream it. Wish it. Do it.
+passage: Success doesn’t just find you. You have to go out and get it.
+passage: The harder you work for something, the greater you'll feel when you achieve it.
+passage: Dream it. Believe it. Build it.
+passage: Don’t stop when you’re tired. Stop when you’re done.
+passage: Wake up with determination. Go to bed with satisfaction.
+passage: Do something today that your future self will thank you for.
+passage: Little things make big days.
+passage: It’s going to be hard, but hard does not mean impossible.
+passage: Don’t wait for opportunity. Create it.
+passage: Sometimes we're tested not to show our weaknesses, but to discover our strengths.
+passage: The only impossible journey is the one you never begin.
+passage: It’s never too late to be what you might have been.
+passage: Everything you’ve ever wanted is on the other side of fear.
+passage: If you can dream it, you can do it.
+passage: You don’t have to be great to start, but you have to start to be great.
+passage: Life isn’t about waiting for the storm to pass. It’s about learning how to dance in the rain.
+passage: Act as if what you do makes a difference. It does.
+passage: Success is not in what you have, but who you are.
+passage: Life is a one-time offer, use it well.
+passage: Work hard in silence, let your success be your noise.
+passage: The quick brown fox jumps over the lazy dog.
+passage: In the midst of chaos, there is also opportunity.
+passage: A journey of a thousand miles begins with a single step.
+passage: The only limit to our realization of tomorrow is our doubts of today.
+passage: Life is what happens when you're busy making other plans.
+passage: To be yourself in a world that is constantly trying to make you something else is the greatest accomplishment.
+passage: It does not matter how slowly you go as long as you do not stop.
+passage: Success is not final, failure is not fatal: It is the courage to continue that counts.
+passage: Believe you can and you're halfway there.
+passage: The purpose of life is not to be happy. It is to be useful, to be honorable, to be compassionate, to have it make some difference that you have lived and lived well.
+passage: In the end, we will remember not the words of our enemies, but the silence of our friends.
+passage: Happiness is not something ready-made. It comes from your own actions.
+passage: You must be the change you wish to see in the world.
+passage: The best way to predict the future is to create it.
+passage: When one door of happiness closes, another opens.
+passage: Life isn't about finding yourself. It's about creating yourself.
+passage: Do not go where the path may lead, go instead where there is no path and leave a trail.
+passage: It always seems impossible until it’s done.
+passage: Success is not how high you have climbed, but how you make a positive difference to the world.
+passage: It is never too late to be what you might have been.
+passage: To live is the rarest thing in the world. Most people exist, that is all.
+passage: The only way to do great work is to love what you do.
+passage: Don't watch the clock; do what it does. Keep going.
+passage: Keep your face always toward the sunshine—and shadows will fall behind you.
+passage: A person who never made a mistake never tried anything new.
+passage: Do not dwell in the past, do not dream of the future, concentrate the mind on the present moment.
+passage: Life is really simple, but we insist on making it complicated.
+passage: Time is what we want most, but what we use worst.
+passage: You only live once, but if you do it right, once is enough.
+passage: The future belongs to those who believe in the beauty of their dreams.
+passage: The best time to plant a tree was 20 years ago. The second best time is now.
+passage: Life isn't about waiting for the storm to pass, it's about learning how to dance in the rain.
+passage: Success usually comes to those who are too busy to be looking for it.
+passage: What lies behind us and what lies before us are tiny matters compared to what lies within us.
+passage: You miss 100% of the shots you don't take.
+passage: It does not matter how slowly you go as long as you do not stop.
+passage: Happiness depends upon ourselves.
+passage: A day without laughter is a day wasted.
+passage: If you don't ask, the answer is always no.
+passage: It’s not whether you get knocked down, it’s whether you get up.
+passage: Life is short, and it is up to you to make it sweet.
+passage: You have to be odd to be number one.
+passage: Every day may not be good, but there is something good in every day.
+passage: The best revenge is massive success.
+passage: Don’t count the days, make the days count.
+passage: Life is 10% what happens to us and 90% how we react to it.
+passage: Success is walking from failure to failure with no loss of enthusiasm.
+passage: Failure will never overtake me if my determination to succeed is strong enough.
+passage: There are no shortcuts to any place worth going.
+passage: What you get by achieving your goals is not as important as what you become by achieving your goals.
+passage: Nothing in the world can take the place of Persistence.
+passage: The harder you work for something, the greater you'll feel when you achieve it.
+passage: Don't stop when you're tired. Stop when you're done.
+passage: The future belongs to those who prepare for it today.
+passage: It’s not about how bad you want it. It’s about how hard you’re willing to work for it.
+passage: The road to success and the road to failure are almost exactly the same.
+passage: You can't go back and change the beginning, but you can start where you are and change the ending.
+passage: The only way to achieve the impossible is to believe it is possible.
+passage: Don't wait. The time will never be just right.
+passage: The secret of getting ahead is getting started.
+passage: Don’t limit your challenges. Challenge your limits.
+passage: The best way to find yourself is to lose yourself in the service of others.
+passage: If you're going through hell, keep going.
+passage: A winner is a dreamer who never gives up.
+passage: The only limit to our realization of tomorrow is our doubts of today.
+passage: If you want to live a happy life, tie it to a goal, not to people or things.
+passage: It is not length of life, but depth of life.
+passage: Our lives begin to end the day we become silent about things that matter.
+passage: Be not afraid of life. Believe that life is worth living, and your belief will help create the fact.
+passage: You will face many defeats in life, but never let yourself be defeated.
+passage: The only way to do great work is to love what you do.
+passage: Don’t wait for the perfect moment. Take the moment and make it perfect.
+passage: Success is not the key to happiness. Happiness is the key to success.
+passage: It’s not the years in your life that count, it’s the life in your years.
+passage: You become what you believe.
+passage: I find that the harder I work, the more luck I seem to have.
+passage: Your time is limited, so don’t waste it living someone else’s life.
+passage: Life is not about waiting for the storm to pass but learning how to dance in the rain.
+passage: Only I can change my life. No one can do it for me.
+passage: It's not about how bad you want it. It's about how hard you're willing to work for it.
+passage: Life is really simple, but we insist on making it complicated.
+passage: Your limitation—it's only your imagination.
+passage: Push yourself, because no one else is going to do it for you.
+passage: Great things never come from comfort zones.
+passage: Dream it. Wish it. Do it.
+passage: Success doesn’t just find you. You have to go out and get it.
+passage: The harder you work for something, the greater you'll feel when you achieve it.
+passage: Dream it. Believe it. Build it.
+passage: Don’t stop when you’re tired. Stop when you’re done.
+passage: Wake up with determination. Go to bed with satisfaction.
+passage: Do something today that your future self will thank you for.
+passage: Little things make big days.
+passage: It’s going to be hard, but hard does not mean impossible.
+passage: Don’t wait for opportunity. Create it.
+passage: Sometimes we're tested not to show our weaknesses, but to discover our strengths.
+passage: The only impossible journey is the one you never begin.
+passage: It’s never too late to be what you might have been.
+passage: Everything you’ve ever wanted is on the other side of fear.
+passage: If you can dream it, you can do it.
+passage: You don’t have to be great to start, but you have to start to be great.
+passage: Life isn’t about waiting for the storm to pass. It’s about learning how to dance in the rain.
+passage: Act as if what you do makes a difference. It does.
+passage: Success is not in what you have, but who you are.
+passage: Life is a one-time offer, use it well.
+passage: Work hard in silence, let your success be your noise.
+passage: The quick brown fox jumps over the lazy dog.
+passage: In the midst of chaos, there is also opportunity.
+passage: A journey of a thousand miles begins with a single step.
+passage: The only limit to our realization of tomorrow is our doubts of today.
+passage: Life is what happens when you're busy making other plans.
+passage: To be yourself in a world that is constantly trying to make you something else is the greatest accomplishment.
+passage: It does not matter how slowly you go as long as you do not stop.
+passage: Success is not final, failure is not fatal: It is the courage to continue that counts.
+passage: Believe you can and you're halfway there.
+passage: The purpose of life is not to be happy. It is to be useful, to be honorable, to be compassionate, to have it make some difference that you have lived and lived well.
+passage: In the end, we will remember not the words of our enemies, but the silence of our friends.
+passage: Happiness is not something ready-made. It comes from your own actions.
+passage: You must be the change you wish to see in the world.
+passage: The best way to predict the future is to create it.
+passage: When one door of happiness closes, another opens.
+passage: Life isn't about finding yourself. It's about creating yourself.
+passage: Do not go where the path may lead, go instead where there is no path and leave a trail.
+passage: It always seems impossible until it’s done.
+passage: Success is not how high you have climbed, but how you make a positive difference to the world.
+passage: It is never too late to be what you might have been.
+passage: To live is the rarest thing in the world. Most people exist, that is all.
+passage: The only way to do great work is to love what you do.
+passage: Don't watch the clock; do what it does. Keep going.
+passage: Keep your face always toward the sunshine—and shadows will fall behind you.
+passage: A person who never made a mistake never tried anything new.
+passage: Do not dwell in the past, do not dream of the future, concentrate the mind on the present moment.
+passage: Life is really simple, but we insist on making it complicated.
+passage: Time is what we want most, but what we use worst.
+passage: You only live once, but if you do it right, once is enough.
+passage: The future belongs to those who believe in the beauty of their dreams.
+passage: The best time to plant a tree was 20 years ago. The second best time is now.
+passage: Life isn't about waiting for the storm to pass, it's about learning how to dance in the rain.
+passage: Success usually comes to those who are too busy to be looking for it.
+passage: What lies behind us and what lies before us are tiny matters compared to what lies within us.
+passage: You miss 100% of the shots you don't take.
+passage: It does not matter how slowly you go as long as you do not stop.
+passage: Happiness depends upon ourselves.
+passage: A day without laughter is a day wasted.
+passage: If you don't ask, the answer is always no.
+passage: It’s not whether you get knocked down, it’s whether you get up.
+passage: Life is short, and it is up to you to make it sweet.
+passage: You have to be odd to be number one.
+passage: Every day may not be good, but there is something good in every day.
+passage: The best revenge is massive success.
+passage: Don’t count the days, make the days count.
+passage: Life is 10% what happens to us and 90% how we react to it.
+passage: Success is walking from failure to failure with no loss of enthusiasm.
+passage: Failure will never overtake me if my determination to succeed is strong enough.
+passage: There are no shortcuts to any place worth going.
+passage: What you get by achieving your goals is not as important as what you become by achieving your goals.
+passage: Nothing in the world can take the place of Persistence.
+passage: The harder you work for something, the greater you'll feel when you achieve it.
+passage: Don't stop when you're tired. Stop when you're done.
+passage: The future belongs to those who prepare for it today.
+passage: It’s not about how bad you want it. It’s about how hard you’re willing to work for it.
+passage: The road to success and the road to failure are almost exactly the same.
+passage: You can't go back and change the beginning, but you can start where you are and change the ending.
+passage: The only way to achieve the impossible is to believe it is possible.
+passage: Don't wait. The time will never be just right.
+passage: The secret of getting ahead is getting started.
+passage: Don’t limit your challenges. Challenge your limits.
+passage: The best way to find yourself is to lose yourself in the service of others.
+passage: If you're going through hell, keep going.
+passage: A winner is a dreamer who never gives up.
+passage: The only limit to our realization of tomorrow is our doubts of today.
+passage: If you want to live a happy life, tie it to a goal, not to people or things.
+passage: It is not length of life, but depth of life.
+passage: Our lives begin to end the day we become silent about things that matter.
+passage: Be not afraid of life. Believe that life is worth living, and your belief will help create the fact.
+passage: You will face many defeats in life, but never let yourself be defeated.
+passage: The only way to do great work is to love what you do.
+passage: Don’t wait for the perfect moment. Take the moment and make it perfect.
+passage: Success is not the key to happiness. Happiness is the key to success.
+passage: It’s not the years in your life that count, it’s the life in your years.
+passage: You become what you believe.
+passage: I find that the harder I work, the more luck I seem to have.
+passage: Your time is limited, so don’t waste it living someone else’s life.
+passage: Life is not about waiting for the storm to pass but learning how to dance in the rain.
+passage: Only I can change my life. No one can do it for me.
+passage: It's not about how bad you want it. It's about how hard you're willing to work for it.
+passage: Life is really simple, but we insist on making it complicated.
+passage: Your limitation—it's only your imagination.
+passage: Push yourself, because no one else is going to do it for you.
+passage: Great things never come from comfort zones.
+passage: Dream it. Wish it. Do it.
+passage: Success doesn’t just find you. You have to go out and get it.
+passage: The harder you work for something, the greater you'll feel when you achieve it.
+passage: Dream it. Believe it. Build it.
+passage: Don’t stop when you’re tired. Stop when you’re done.
+passage: Wake up with determination. Go to bed with satisfaction.
+passage: Do something today that your future self will thank you for.
+passage: Little things make big days.
+passage: It’s going to be hard, but hard does not mean impossible.
+passage: Don’t wait for opportunity. Create it.
+passage: Sometimes we're tested not to show our weaknesses, but to discover our strengths.
+passage: The only impossible journey is the one you never begin.
+passage: It’s never too late to be what you might have been.
+passage: Everything you’ve ever wanted is on the other side of fear.
+passage: If you can dream it, you can do it.
+passage: You don’t have to be great to start, but you have to start to be great.
+passage: Life isn’t about waiting for the storm to pass. It’s about learning how to dance in the rain.
+passage: Act as if what you do makes a difference. It does.
+passage: Success is not in what you have, but who you are.
+passage: Life is a one-time offer, use it well.
+passage: Work hard in silence, let your success be your noise.
+passage: The quick brown fox jumps over the lazy dog.
+passage: In the midst of chaos, there is also opportunity.
+passage: A journey of a thousand miles begins with a single step.
+passage: The only limit to our realization of tomorrow is our doubts of today.
+passage: Life is what happens when you're busy making other plans.
+passage: To be yourself in a world that is constantly trying to make you something else is the greatest accomplishment.
+passage: It does not matter how slowly you go as long as you do not stop.
+passage: Success is not final, failure is not fatal: It is the courage to continue that counts.
+passage: Believe you can and you're halfway there.
+passage: The purpose of life is not to be happy. It is to be useful, to be honorable, to be compassionate, to have it make some difference that you have lived and lived well.
+passage: In the end, we will remember not the words of our enemies, but the silence of our friends.
+passage: Happiness is not something ready-made. It comes from your own actions.
+passage: You must be the change you wish to see in the world.
+passage: The best way to predict the future is to create it.
+passage: When one door of happiness closes, another opens.
+passage: Life isn't about finding yourself. It's about creating yourself.
+passage: Do not go where the path may lead, go instead where there is no path and leave a trail.
+passage: It always seems impossible until it’s done.
+passage: Success is not how high you have climbed, but how you make a positive difference to the world.
+passage: It is never too late to be what you might have been.
+passage: To live is the rarest thing in the world. Most people exist, that is all.
+passage: The only way to do great work is to love what you do.
+passage: Don't watch the clock; do what it does. Keep going.
+passage: Keep your face always toward the sunshine—and shadows will fall behind you.
+passage: A person who never made a mistake never tried anything new.
+passage: Do not dwell in the past, do not dream of the future, concentrate the mind on the present moment.
+passage: Life is really simple, but we insist on making it complicated.
+passage: Time is what we want most, but what we use worst.
+passage: You only live once, but if you do it right, once is enough.
+passage: The future belongs to those who believe in the beauty of their dreams.
+passage: The best time to plant a tree was 20 years ago. The second best time is now.
+passage: Life isn't about waiting for the storm to pass, it's about learning how to dance in the rain.
+passage: Success usually comes to those who are too busy to be looking for it.
+passage: What lies behind us and what lies before us are tiny matters compared to what lies within us.
+passage: You miss 100% of the shots you don't take.
+passage: It does not matter how slowly you go as long as you do not stop.
+passage: Happiness depends upon ourselves.
+passage: A day without laughter is a day wasted.
+passage: If you don't ask, the answer is always no.
+passage: It’s not whether you get knocked down, it’s whether you get up.
+passage: Life is short, and it is up to you to make it sweet.
+passage: You have to be odd to be number one.
+passage: Every day may not be good, but there is something good in every day.
+passage: The best revenge is massive success.
+passage: Don’t count the days, make the days count.
+passage: Life is 10% what happens to us and 90% how we react to it.
+passage: Success is walking from failure to failure with no loss of enthusiasm.
+passage: Failure will never overtake me if my determination to succeed is strong enough.
+passage: There are no shortcuts to any place worth going.
+passage: What you get by achieving your goals is not as important as what you become by achieving your goals.
+passage: Nothing in the world can take the place of Persistence.
+passage: The harder you work for something, the greater you'll feel when you achieve it.
+passage: Don't stop when you're tired. Stop when you're done.
+passage: The future belongs to those who prepare for it today.
+passage: It’s not about how bad you want it. It’s about how hard you’re willing to work for it.
+passage: The road to success and the road to failure are almost exactly the same.
+passage: You can't go back and change the beginning, but you can start where you are and change the ending.
+passage: The only way to achieve the impossible is to believe it is possible.
+passage: Don't wait. The time will never be just right.
+passage: The secret of getting ahead is getting started.
+passage: Don’t limit your challenges. Challenge your limits.
+passage: The best way to find yourself is to lose yourself in the service of others.
+passage: If you're going through hell, keep going.
+passage: A winner is a dreamer who never gives up.
+passage: The only limit to our realization of tomorrow is our doubts of today.
+passage: If you want to live a happy life, tie it to a goal, not to people or things.
+passage: It is not length of life, but depth of life.
+passage: Our lives begin to end the day we become silent about things that matter.
+passage: Be not afraid of life. Believe that life is worth living, and your belief will help create the fact.
+passage: You will face many defeats in life, but never let yourself be defeated.
+passage: The only way to do great work is to love what you do.
+passage: Don’t wait for the perfect moment. Take the moment and make it perfect.
+passage: Success is not the key to happiness. Happiness is the key to success.
+passage: It’s not the years in your life that count, it’s the life in your years.
+passage: You become what you believe.
+passage: I find that the harder I work, the more luck I seem to have.
+passage: Your time is limited, so don’t waste it living someone else’s life.
+passage: Life is not about waiting for the storm to pass but learning how to dance in the rain.
+passage: Only I can change my life. No one can do it for me.
+passage: It's not about how bad you want it. It's about how hard you're willing to work for it.
+passage: Life is really simple, but we insist on making it complicated.
+passage: Your limitation—it's only your imagination.
+passage: Push yourself, because no one else is going to do it for you.
+passage: Great things never come from comfort zones.
+passage: Dream it. Wish it. Do it.
+passage: Success doesn’t just find you. You have to go out and get it.
+passage: The harder you work for something, the greater you'll feel when you achieve it.
+passage: Dream it. Believe it. Build it.
+passage: Don’t stop when you’re tired. Stop when you’re done.
+passage: Wake up with determination. Go to bed with satisfaction.
+passage: Do something today that your future self will thank you for.
+passage: Little things make big days.
+passage: It’s going to be hard, but hard does not mean impossible.
+passage: Don’t wait for opportunity. Create it.
+passage: Sometimes we're tested not to show our weaknesses, but to discover our strengths.
+passage: The only impossible journey is the one you never begin.
+passage: It’s never too late to be what you might have been.
+passage: Everything you’ve ever wanted is on the other side of fear.
+passage: If you can dream it, you can do it.
+passage: You don’t have to be great to start, but you have to start to be great.
+passage: Life isn’t about waiting for the storm to pass. It’s about learning how to dance in the rain.
+passage: Act as if what you do makes a difference. It does.
+passage: Success is not in what you have, but who you are.
+passage: Life is a one-time offer, use it well.
+passage: Work hard in silence, let your success be your noise.
+
+
+
+
+
+
